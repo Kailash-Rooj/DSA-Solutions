@@ -11,9 +11,7 @@ int main()
         printf("Factorial is not defined for negative numbers.\n");
         return 1;
     }
-    else if(num == 0 || num ==1){
-        ans = 1;
-    }else{
+    else{
         for(i = 2; i<= num; i++){
         ans *= i;
         }
